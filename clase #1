@@ -1,10 +1,10 @@
-// Laura Isabel Sánchez Fernández 
+// Miguel Angel Rivera
 package poo;
 
 public class POO {
 
     public static void main(String[] args) {
-        /*int edad = 25;
+        /*int edad = 17;
         double temperatura = 98.6;
         char calificacion = ´A´;
         boolean activo = true;
