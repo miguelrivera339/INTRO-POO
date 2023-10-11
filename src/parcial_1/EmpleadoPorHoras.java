@@ -1,4 +1,4 @@
-package parcial_1;
+package Main;
 
 public class EmpleadoPorHoras extends Empleado {
     private int horasTrabajadas;
@@ -13,21 +13,5 @@ public class EmpleadoPorHoras extends Empleado {
 
     public double calcularSalario() {
         return horasTrabajadas * tarifaPorHora;
-    }
-
-    public int getHorasTrabajadas() {
-        return horasTrabajadas;
-    }
-
-    public void setHorasTrabajadas(int horasTrabajadas) {
-        this.horasTrabajadas = horasTrabajadas;
-    }
-
-    public double getTarifaPorHora() {
-        return tarifaPorHora;
-    }
-
-    public void setTarifaPorHora(double tarifaPorHora) {
-        this.tarifaPorHora = tarifaPorHora;
     }
 }
