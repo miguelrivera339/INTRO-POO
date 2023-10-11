@@ -1,3 +1,5 @@
+package Main;
+
 public class EmpleadoAsalariado extends Empleado {
     private double deducciones;
 
@@ -8,14 +10,6 @@ public class EmpleadoAsalariado extends Empleado {
 
     @Override
     public double calcularSalario() {
-        return getSalarioBase() - deducciones;
-    }
-
-    public double getDeducciones() {
-        return deducciones;
-    }
-
-    public void setDeducciones(double deducciones) {
-        this.deducciones = deducciones;
+        return salarioBase - deducciones;
     }
 }
