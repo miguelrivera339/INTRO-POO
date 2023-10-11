@@ -1,6 +1,8 @@
+package Main;
+
 public abstract class Empleado {
-    private String nombre;
-    private double salarioBase;
+    protected String nombre;
+    protected double salarioBase;
 
     public Empleado(String nombre, double salarioBase) {
         this.nombre = nombre;
@@ -8,20 +10,4 @@ public abstract class Empleado {
     }
 
     public abstract double calcularSalario();
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public double getSalarioBase() {
-        return salarioBase;
-    }
-
-    public void setSalarioBase(double salarioBase) {
-        this.salarioBase = salarioBase;
-    }
 }
